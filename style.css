@@ -1,0 +1,41 @@
+.imgSilderr{
+    width: 20vw;
+    height: auto;
+}
+
+#leftBtn{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: black;
+    border-radius: 50%;
+}
+
+#rightBtn{
+    position: fixed;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: black;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #leftBtn{
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    
+    #rightBtn{
+        
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        
+    }    
+  }
